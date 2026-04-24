@@ -10,7 +10,7 @@
         z-index: 1001;
     }
 
-    nav {
+    .cities {
         position: fixed;
         top: 0;
         right: -100%;
@@ -21,11 +21,11 @@
         margin-top: 80px;
     }
 
-    nav.active {
+    .cities.active {
         right: 0;
     }
 
-    nav ul {
+    .cities ul {
         flex-direction: column;
         align-items: center;
     }

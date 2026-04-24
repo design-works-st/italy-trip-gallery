@@ -16,7 +16,7 @@
                 <span></span>
                 <span></span>
             </div>
-            <nav class="cities" class="nav-menu" id="nav-menu">
+            <nav class="cities" id="cities">
                 <ul>
                     <li><a href="#milano" class="city-link">MILANO</a></li>
                     <li><a href="#venice" class="city-link">VENICE</a></li>
@@ -77,11 +77,11 @@
 </body>
 <script>
     const hamburger = document.getElementById('hamburger');
-    const navMenu = document.getElementById('nav-menu');
+    const cities = document.getElementById('cities');
 
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('open');
-        navMenu.classList.toggle('active');
+        cities.classList.toggle('active');
     });
 </script>
 </html>
