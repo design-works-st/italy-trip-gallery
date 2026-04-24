@@ -78,8 +78,7 @@ header {
     font-weight: normal;
     text-decoration: none;
     opacity: 0.6;
-    border-bottom: 2px solid transparent;
-    transition: all 0.3s ease;
+    transition: opacity 0.3s ease;
 }
 
 nav ul {
