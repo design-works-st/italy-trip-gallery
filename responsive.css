@@ -1,4 +1,8 @@
-
+@media (hover: hover) {
+    .city-link:hover::after {
+        transform: scale(1);
+    }
+}
 
 @media (max-width: 1080px) {
     .header-title {
